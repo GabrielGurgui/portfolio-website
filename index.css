@@ -1,0 +1,141 @@
+
+  
+  @import url("https://use.typekit.net/hdg7eba.css");
+
+* {
+  font-family: Heebo;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10%;
+  overflow: hidden;
+  position: relative;
+  align-items: baseline;
+}
+
+nav{
+  padding: 0 10px;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 34px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #FF6464;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text {
+  margin-top: 10%;
+  max-width: 100%;
+}
+
+.content h1{
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.content p{
+  margin: 10px 0 30px;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* aliniază textul și poza pe verticală */
+  flex-wrap: wrap; /* pentru responsive */
+  gap: 116px; /* spațiu între text și imagine, opțional */
+}
+
+.hero-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.section2 {
+  background-color: #EDF7FA;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 10px 10%;
+}
+
+.section2 ul li {
+  display:inline-block;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.recent {
+  padding-left: 0px;
+  padding-right: 1000px;
+  font-size: 22px;
+}
+
+.btn-view {
+  text-decoration: none;
+  color: #00A8CC;
+  font-size: 16px;
+  padding-right: 0%;
+}
+
+
+.box-1 {
+  padding: 34px;
+  background-color: white;
+  width: fit-content;
+  min-height: fit-content;
+  flex-wrap: wrap;
+}
+
+.box-1 ul li {
+  display: inline-block;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 18px;
+}
+
+.box-2 {
+  padding: 34px;
+  background-color: white;
+  width: fit-content;
+  min-height: fit-content;
+  flex-wrap: wrap;
+}
+
+.recent-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* două coloane egale */
+    gap: 20px;
+  }
